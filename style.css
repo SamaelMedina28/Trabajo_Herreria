@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    overflow-x: hidden;
 background: rgb(255,222,130);
 background: linear-gradient(219deg, rgba(255,222,130,1) 0%, rgba(255,226,146,1) 21%, rgba(255,230,160,1) 82%, rgba(255,247,225,1) 100%); 
 }
