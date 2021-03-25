@@ -12,7 +12,7 @@ header{
     text-decoration: none;
     color: white;
     position: sticky;
-    top: 0;
+    top: 0px;
     z-index: 100;
     height: 136px;
 }
@@ -145,11 +145,7 @@ div{
         font-size: 24px;
         margin-left: 10px;
         margin-right: 2px;
-    } @media screen and (max-width:400px){
-        .fa-pencil-ruler,.fa-vector-square{
-            display: none;
-        }
-    }
+    } 
     header{
         height: 93px;
     }span{
@@ -166,5 +162,14 @@ div{
         width: auto;
     }strong{
         font-weight: 400;
+    }
+    @media screen and (max-width:500px){
+        .fa-vector-square,.fa-pencil-ruler{
+            color: transparent;
+            position:absolute;
+        }
+        div{
+            height: 270px
+        }
     }
 }
