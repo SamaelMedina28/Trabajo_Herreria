@@ -106,7 +106,7 @@ footer{
     font-size: 21px;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 23px;
     margin-top: 90px;
     margin-bottom: none;
     position: relative;
@@ -153,6 +153,7 @@ div{
         height: 93px;
         width: auto;
         overflow-x: hidden;
+        overflow-y: hidden;
     }span{
         display: none;
     }p{
